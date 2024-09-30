@@ -1,0 +1,101 @@
+[2024-09-29 20:29:34,620] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.15.11:5000 (Press CTRL+C to quit) - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:29:59,991] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.15.11:5000 (Press CTRL+C to quit) - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:30:24,117] INFO _log() L224  127.0.0.1 - - [29/Sep/2024 20:30:24] "OPTIONS /predict HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:30:24,384] ERROR log_exception() L1449 Exception on /predict [POST] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tosta\AppData\Roaming\Python\Python311\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 117, in view_func
+    response = func(**func_kwargs)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tosta\Documents\PUCRIO\ML\app.py", line 43, in predict
+    with open('model/pipeline.pkl', 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'model/pipeline.pkl'
+[2024-09-29 20:30:24,396] INFO _log() L224  127.0.0.1 - - [29/Sep/2024 20:30:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:30:24,428] INFO _log() L224  127.0.0.1 - - [29/Sep/2024 20:30:24] "OPTIONS /predict HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:30:24,713] ERROR log_exception() L1449 Exception on /predict [POST] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tosta\AppData\Roaming\Python\Python311\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 117, in view_func
+    response = func(**func_kwargs)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tosta\Documents\PUCRIO\ML\app.py", line 43, in predict
+    with open('model/pipeline.pkl', 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'model/pipeline.pkl'
+[2024-09-29 20:30:24,715] INFO _log() L224  127.0.0.1 - - [29/Sep/2024 20:30:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:31:12,907] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.15.11:5000 (Press CTRL+C to quit) - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:31:18,610] INFO _log() L224  127.0.0.1 - - [29/Sep/2024 20:31:18] "OPTIONS /predict HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:31:18,875] ERROR log_exception() L1449 Exception on /predict [POST] - call_trace=C:\Python311\Lib\site-packages\flask\app.py L1449
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tosta\AppData\Roaming\Python\Python311\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_openapi3\scaffold.py", line 117, in view_func
+    response = func(**func_kwargs)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tosta\Documents\PUCRIO\ML\app.py", line 43, in predict
+    with open('model/pipeline_model.pkl', 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'model/pipeline_model.pkl'
+[2024-09-29 20:31:18,877] INFO _log() L224  127.0.0.1 - - [29/Sep/2024 20:31:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:32:06,073] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.15.11:5000 (Press CTRL+C to quit) - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:32:09,039] INFO _log() L224  127.0.0.1 - - [29/Sep/2024 20:32:09] "OPTIONS /predict HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:32:09,625] INFO predict() L49   Recebendo dados para predição: {'Age': '121', 'Gender': '0', 'Ethnicity': '0', 'EducationLevel': '0', 'BMI': '12', 'Smoking': '0', 'AlcoholConsumption': '12', 'PhysicalActivity': '12', 'DietQuality': '12', 'SleepQuality': '12', 'FamilyHistoryAlzheimers': '0', 'CardiovascularDisease': '0', 'Diabetes': '0', 'Depression': '0', 'HeadInjury': '0', 'Hypertension': '0', 'SystolicBP': '12', 'DiastolicBP': '12', 'CholesterolTotal': '12', 'CholesterolLDL': '12', 'CholesterolHDL': '12', 'CholesterolTriglycerides': '12', 'MMSE': '12', 'FunctionalAssessment': '12', 'MemoryComplaints': '0', 'BehavioralProblems': '0', 'ADL': '12', 'Confusion': '0', 'Disorientation': '0', 'PersonalityChanges': '0', 'DifficultyCompletingTasks': '0', 'Forgetfulness': '0'} - call_trace=C:\Users\Tosta\Documents\PUCRIO\ML\app.py L49  
+[2024-09-29 20:32:09,626] INFO predict() L67   Predição realizada com sucesso: 0.0 - call_trace=C:\Users\Tosta\Documents\PUCRIO\ML\app.py L67  
+[2024-09-29 20:32:09,627] INFO _log() L224  127.0.0.1 - - [29/Sep/2024 20:32:09] "POST /predict HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:35:23,078] INFO _log() L224  127.0.0.1 - - [29/Sep/2024 20:35:23] "OPTIONS /predict HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2024-09-29 20:35:23,341] INFO predict() L49   Recebendo dados para predição: {'Age': '1', 'Gender': '0', 'Ethnicity': '0', 'EducationLevel': '0', 'BMI': '1', 'Smoking': '0', 'AlcoholConsumption': '1', 'PhysicalActivity': '1', 'DietQuality': '1', 'SleepQuality': '1', 'FamilyHistoryAlzheimers': '0', 'CardiovascularDisease': '0', 'Diabetes': '0', 'Depression': '0', 'HeadInjury': '0', 'Hypertension': '0', 'SystolicBP': '1', 'DiastolicBP': '1', 'CholesterolTotal': '1', 'CholesterolLDL': '1', 'CholesterolHDL': '1', 'CholesterolTriglycerides': '1', 'MMSE': '1', 'FunctionalAssessment': '1', 'MemoryComplaints': '0', 'BehavioralProblems': '0', 'ADL': '1', 'Confusion': '0', 'Disorientation': '0', 'PersonalityChanges': '0', 'DifficultyCompletingTasks': '0', 'Forgetfulness': '0'} - call_trace=C:\Users\Tosta\Documents\PUCRIO\ML\app.py L49  
+[2024-09-29 20:35:23,343] INFO predict() L67   Predição realizada com sucesso: 1.0 - call_trace=C:\Users\Tosta\Documents\PUCRIO\ML\app.py L67  
