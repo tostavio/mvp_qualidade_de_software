@@ -24,4 +24,13 @@ pytest -v test_modelos.py
 
 ## Frontend
 
-Para abrir o frontend, basta abrir o arquivo `index.html` que está em `frontend/index.html` no seu navegador.
+Para abrir o frontend, basta abrir o arquivo [index.html](./front/index.html) no seu navegador.
+
+## Notebook
+
+Para acessar o notebook feito no Google Colab, basta clicar [aqui](https://colab.research.google.com/drive/1MPBBGNpXM3T4bnK7M7lDNRor-mUZtUo6?usp=sharing).
+Ele também está versionado no diretório [Modelo_Alzheimer.ipynb](./MachineLearning/notebooks/Modelo_Alzheimer.ipynb).
+
+## Dataset
+
+O Dataset está em [alzheimers_disease_data.csv](./MachineLearning/data/alzheimers_disease_data.csv), mas você também pode ver o original aqui: [Alzheimer's Disease Dataset](https://www.kaggle.com/jboysen/mri-and-alzheimers), ou no meu github [aqui](https://raw.githubusercontent.com/tostavio/datasets/refs/heads/main/alzheimers_disease_data.csv)
