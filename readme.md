@@ -33,4 +33,4 @@ Ele também está versionado no diretório [Modelo_Alzheimer.ipynb](./MachineLea
 
 ## Dataset
 
-O Dataset está em [alzheimers_disease_data.csv](./MachineLearning/data/alzheimers_disease_data.csv), mas você também pode ver o original aqui: [Alzheimer's Disease Dataset](https://www.kaggle.com/jboysen/mri-and-alzheimers), ou no meu github [aqui](https://raw.githubusercontent.com/tostavio/datasets/refs/heads/main/alzheimers_disease_data.csv)
+O Dataset está em [alzheimers_disease_data.csv](./MachineLearning/data/alzheimers_disease_data.csv), mas você também pode ver o original aqui: [Alzheimer's Disease Dataset](https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset), ou no meu github [aqui](https://raw.githubusercontent.com/tostavio/datasets/refs/heads/main/alzheimers_disease_data.csv)
