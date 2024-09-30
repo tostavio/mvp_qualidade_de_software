@@ -21,3 +21,7 @@ Para testar o modelo, basta executar:
 ```
 pytest -v test_modelos.py
 ```
+
+## Frontend
+
+Para abrir o frontend, basta abrir o arquivo `index.html` que está em `frontend/index.html` no seu navegador.
